@@ -76,18 +76,18 @@ html, body {
 }
 
 
-hr{
-  border: solid 1px #413659;
-  
-  margin: 0;
+.center-text{
+  text-align: center;
 }
 
+/*
 .container-full {
       padding: 0;
   margin: 0 auto;
   width: 100%;
   height: 100%;
 }
+*/
 
 /* padded section */
 .pad-section {
@@ -118,6 +118,13 @@ hr{
   box-shadow: -4px 6px 0px 0px #BE43F2;
 }
 
+
+.btn-text{
+  position: relative;
+  top: -0.5em;
+  font-size: 2em;
+}
+
 .sub-text{
   //font-family: font-aleo;
   position: relative;
@@ -129,7 +136,7 @@ hr{
   margin-top: 0px;
   //line-height: 1.2;
   //color: #ffffff;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 @media (max-width: 767px) {
@@ -148,7 +155,7 @@ hr{
 }
 
 .elevator-bio{
-  position: absolute;  
+  //position: absolute;  
   bottom: 40px;
   left: 50px;
 }
@@ -232,17 +239,15 @@ hr{
 
 
 .bg-image{
-background: url('../images/hiking-bg.JPG') no-repeat;   
+background: url('../images/hiking-bg.jpg') no-repeat;   
   //box-sizing: border-box;
-  
-  height: 100%;
-    //background-attachment:scroll;
-
-    position: fixed;
+  min-height: 40%;
+    background-attachment:scroll;
+    //position: fixed;
     width: 100%;
-    z-index: -1;
+    //z-index: -1;
     top: 0px;
-    left: 0px;
+    //left: 0px;
 
    -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
@@ -253,7 +258,7 @@ background: url('../images/hiking-bg.JPG') no-repeat;
     -o-background-size: cover; 
     background-size: cover; 
 
-  background-position: right;
+  background-position: bottom right;
 }
 
 
@@ -264,12 +269,6 @@ background: url('../images/hiking-bg.JPG') no-repeat;
       
 }
 
-.home {
-  //background-attachment:scroll;
-  width: 100%;
-  height: 100%;
-}
-
 .home h1{
   display: inline-block;
   vertical-align: middle;
@@ -277,6 +276,7 @@ background: url('../images/hiking-bg.JPG') no-repeat;
 
 .home-links{
   font-size: 1.6em;
+  padding-top: 0.9em;
 }
 
 @media (max-width: 767px) {
@@ -310,10 +310,9 @@ background: url('../images/hiking-bg.JPG') no-repeat;
   color: #ECF0F1;
   background-color: #413659;
       text-align: justify;
-
       font-family: open_sanslight;
     font-size: 1.5em;
-  //box-shadow: 0px 1px 14px 1px #000000;
+
 }
 
 #contact{
@@ -328,7 +327,7 @@ textarea, input{
 }
 
 .map-box{
-      width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -398,20 +397,13 @@ textarea, input{
 }
 
 .project-descript{
-      font-family: open_sanslight;
+    font-family: open_sanslight;
     text-align: justify;
-    
     margin: 10px;
 }
 
-
 .project-descript a{
-      font-size: 1.3em;
-}
-
-
-.circlepic{
-  padding-bottom: 1em;
+    font-size: 1.3em;
 }
 
 .btn-primary{

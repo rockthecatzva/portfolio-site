@@ -2,30 +2,20 @@
 <html lang="en" >
 <head>
   <meta charset="utf-8" />
-
   <title>dan.catzva</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-
-  <!-- attach CSS styles -->
   <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-
   <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-
   <link href="css/style.css" rel="stylesheet" />
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-15876167-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 
   <script type="text/javascript">
@@ -75,32 +65,33 @@
 </script>
 </head>
 <body>
-
-
-
-  <div class="container-full">
-
-    <div class="home row">
-      <div class="bg-image"></div>
-      <div class="elevator-bio">
-        <span class="intro-name block-text shadow">dan CATZVA</span>
+    <div class="jumbotron bg-image">
+      <div class="container elevator-bio">
+        <span class="intro-name block-text">dan CATZVA</span>
         <br/>
-
-
-        <span class="indent block-text web-dev shadow">Web developer</span> 
-        <br/> 
-        <br/> 
-        <a href="#about" class="other-description hidden-xs">
+        <span class="indent block-text web-dev">Web developer</span> 
+        
+        <!--<div>
+          <a href="#about" class="other-description hidden-xs">
           <span class="sub-text block-text">Tinkerer</span> <span class="sub-text block-text">DIY-superstar</span> <span class="sub-text block-text">Hiking-ninja</span> <span class="sub-text block-text">Cat-whisperer</span>
-        </a>
-        <br/> 
-        <br/> 
-        <div class="indent home-links">
-          <a href="#projects"><span class="sub-text block-text">Projects</span></a> <a href="#contact"><span class="sub-text block-text">Contact</span></a> <a href="#about"><span class="sub-text block-text">Other</span></a>
-        </div>
+          </a>
+        </div>-->
+         
+        
 
       </div>
     </div>
+
+
+<div class="container">
+  <div class="row center-text">
+    <div class="col-sm-4"><a href="#projects"><span class="btn-text block-text shadow">Projects</span></a></div>
+    <div class="col-sm-4"><a href="#contact"><span class="btn-text block-text shadow">Contact</span></a></div>
+    <div class="col-sm-4"><a href="#about"><span class="btn-text block-text shadow">Other</span></a></div>
+  </div>          
+</div>
+
+
 
 
     <div id="projects" class="">
@@ -109,11 +100,11 @@
         <div class="project-box col-sm-6 col-sm-offset-3">
           <img src="images/lastfm-angular.jpg" style="width: 100%; height: 100%;"/>
           <div class="descript-container">
-            <p><span class="project-title block-text shadow">
+            <p><span class="project-title block-text">
               Angular & D3.js Data Visualization
             </span></p>
             
-            <p><span class="block-text sub-text shadow">
+            <p><span class="block-text sub-text">
               Angular, d3.js, Bootstrap, jQuery
             </span></p>
 
@@ -147,10 +138,10 @@
         <div class="project-box  col-sm-6 col-sm-offset-3">  
           <img src="images/portfolio-slimtracker.jpg" style="width: 100%; height: 100%;"/>
           <div class="descript-container">
-            <p><span class="project-title block-text shadow">
+            <p><span class="project-title block-text">
               React & D3.js Data Dashboard
             </span></p>
-            <p><span class="sub-text block-text shadow">
+            <p><span class="sub-text block-text">
               PHP Slim API, mySQL, react.js, c3 (d3.js), ES6, Bootstrap
             </span></p>
             
@@ -178,10 +169,10 @@
         <div class="project-box col-sm-6 col-sm-offset-3">  
           <img src="images/hichew.png" style="width: 100%; height: 100%;"/>
           <div class="descript-container">
-            <p><span class="project-title block-text shadow">
+            <p><span class="project-title block-text">
               Animated microsite
             </span></p>
-            <p><span class="sub-text block-text shadow">
+            <p><span class="sub-text block-text">
               HTML, jQuery
             </span></p>
           </div>
@@ -210,10 +201,10 @@
           <img src="images/f2b.jpg" style="width: 100%; height: 100%;"/>
 
           <div class="descript-container">
-            <p><span class="project-title block-text shadow">
+            <p><span class="project-title block-text">
               Educational mini-game prototype
             </span></p>
-            <p><span class="sub-text block-text shadow">
+            <p><span class="sub-text block-text">
               OOP. Game dev. Flash + AS3.
             </span></p>
             
@@ -238,10 +229,10 @@
           <img src="images/Beau_shot1.jpg" style="width: 100%; height: 100%;"/>
 
           <div class="descript-container">
-            <p><span class="project-title block-text shadow">
+            <p><span class="project-title block-text">
               Portfolio site
             </span></p>
-            <p><span class="sub-text block-text shadow">
+            <p><span class="sub-text block-text">
               HTML, jQuery
             </span></p>
             
@@ -326,6 +317,7 @@
 
           <div class="row address-sect">
             <p class="address-sect-b">Dan Catzva</p>
+            <a href="https://github.com/rockthecatzva">github</a>
             <p>Washington, DC 20001</p>
             <p>dcatzva@gmail.com</p>
           </div>
@@ -375,7 +367,5 @@
     </div>
 
 
-
-  </div>
 </body>
 </html>
