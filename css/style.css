@@ -148,6 +148,17 @@ html, body {
 }
 
 
+.click-shadow{
+  box-shadow: black 0px 0px 12px;
+}
+
+.gitlogo{
+  padding-left: 0.5em;
+}
+
+.circlepic{
+  padding-bottom: 1em;
+}
 
 .top-bar{
   position: absolute;
