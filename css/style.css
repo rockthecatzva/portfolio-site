@@ -28,38 +28,20 @@
 
 @font-face{
   font-family: open-sans-b;
-  src: url("../fonts/OpenSans-Regular.ttf");
+  src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
-
 
 
 @font-face{
   font-family: font-aleo;
-  src: url("../fonts/norwester.otf");
+   src: url('norwester-webfont.woff2') format('woff2'),
+         url('norwester-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-
-
-
-
-/*
-@font-face{
-  font-family: palitoon;
-  src: url("../fonts/palitoon.otf");
-}
-
-@font-face{
-  font-family: roboto;
-  src: url("../fonts/RobotoSlab-Regular.ttf");
-}
-
-
-@font-face{
-  font-family: monts;
-  src: url("../fonts/Montserrat-Light.otf");
-}
-
-*/
 
 body{
       color: #000;
