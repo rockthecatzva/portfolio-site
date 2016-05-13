@@ -102,7 +102,7 @@
             <p><span class="project-title block-text">
               Angular & D3.js Data Visualization
             </span></p>
-            <p><span class="block-text sub-text">
+            <p><span class="block-text sub-text indent">
               Angular, d3.js, Bootstrap, jQuery
             </span></p>
           </div>
@@ -133,7 +133,7 @@
             <p><span class="project-title block-text">
               React & D3.js Data Dashboard
             </span></p>
-            <p><span class="sub-text block-text">
+            <p><span class="block-text sub-text indent">
               PHP Slim API, mySQL, react.js, c3 (d3.js), ES6, Bootstrap
             </span></p>      
           </div>
@@ -158,7 +158,7 @@
             <p><span class="project-title block-text">
               Animated microsite
             </span></p>
-            <p><span class="sub-text block-text">
+            <p><span class="block-text sub-text indent">
               HTML, jQuery
             </span></p>
           </div>
@@ -183,7 +183,7 @@
             <p><span class="project-title block-text">
               Educational mini-game prototype
             </span></p>
-            <p><span class="sub-text block-text">
+            <p><span class="block-text sub-text indent">
               OOP. Game dev. Flash + AS3.
             </span></p>
           </div>
@@ -207,7 +207,7 @@
             <p><span class="project-title block-text">
               Portfolio site
             </span></p>
-            <p><span class="sub-text block-text">
+            <p><span class="block-text sub-text indent">
               HTML, jQuery
             </span></p>
           </div>
