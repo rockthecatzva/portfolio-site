@@ -203,6 +203,7 @@ html, body {
 .indent {
   position: relative;
   left: 1em;
+  line-height: 0.9;
 }
 
 .web-dev
