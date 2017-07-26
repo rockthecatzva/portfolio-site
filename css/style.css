@@ -37,9 +37,6 @@ src: url("../fonts/JosefinSlab-Regular.ttf")
 }
 
 
-.carousel-control.left, .carousel-control.right {
-  background-image: none
-}
 
 body{
   color: #000;
@@ -58,9 +55,6 @@ html, body {
 }
 
 
-.hobby-pic{
-  padding: 0.5em;
-}
 
 
 .pad-section {
@@ -71,25 +65,8 @@ html, body {
   padding-bottom: 30px;
 }
 
-.name-box{
-  font-size: 4em;
-  text-align: center;
-}
 
-.descript-container{
-  position: absolute;
-  left: 2em;
-  bottom: 10px;
-}
 
-.descript-container p{
-  margin: 0;
-  line-height: 1.2em;
-}
-
-.shadow{
-  box-shadow: -4px 6px 0px 0px #BE43F2;
-}
 
 
 .btn-text{
@@ -104,35 +81,10 @@ html, body {
   box-shadow: black 2px 2px;
 }
 
-.sub-text{
-  position: relative;
-  left: 1em;
-  margin-right: 5px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  font-size: 1.5em;
-}
 
 @media (max-width: 767px) {
-  .sub-text {
-    font-size: 0.9em;
-  }
-
-  .click-shadow{
-    box-shadow: black 0px 0px 12px;
-  }
-
   .gitlogo{
     padding-left: 0.5em;
-  }
-
-  .circlepic{
-    padding-bottom: 1em;
-  }
-
-  .top-bar{
-    position: absolute;
-    width: 100%;
   }
 
   .elevator-bio{
@@ -160,12 +112,6 @@ html, body {
 
 }
 
-.other-description{
-  line-height: 1.4;
-  font-size: 1.2em;
-  position: relative;
-  left: 3em;
-}
 
 .project-title{
   margin-top: 1em;
@@ -230,20 +176,6 @@ html, body {
   padding-left: 8px;
 }
 
-#social-buttons{
-  background-color: #202020;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  color: white;
-}
-
-#social-buttons a{
-  color: #E2E2E2;
-}
-
-#social-buttons a:hover{
-  color: white;
-}
 
 
 .bg-image{
@@ -274,28 +206,15 @@ html, body {
 
 }
 
-.home h1{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.home-links{
-  font-size: 1.6em;
-  padding-top: 0.9em;
-}
 
 @media (max-width: 767px) {
 
 }
 
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
-}
 
 #projects {
   position: relative;
-  background-color: white;
+  background-color: #d5fdf0;
   padding-top: 3em;
 }
 
@@ -304,7 +223,7 @@ html, body {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   color: #504E4E;
-  background-color: #F0F0F0;
+  background-color: #ffffff;
   text-align: justify;
   font-family: open_sanslight;
   font-size: 1em;
@@ -312,9 +231,6 @@ html, body {
 
 
 
-#about hr{
-  border-top: 1px solid black;
-}
 
 .fa-github{
   position: relative;
@@ -331,81 +247,9 @@ html, body {
 }
 
 
-textarea, input{
-  border-radius: 0 !important;
-}
-
-.map-box{
-  width: 100%;
-  height: 100%;
-}
-
-.contact-box{
-  height: 100%;
-}
-
-.contact-title{
-  font-size: 2.4em;
-}
-
-#menu{
-  min-height: 20%%;
-  background-color: #bdd4de;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: 2px 2px 10px 1px #000000;
-  z-index: 5;
-}
-
-.panel{
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.bio-text{
-  position: absolute;
-  font-size: 1.4em;
-  bottom: 0.5em;
-  left: 1em;
-}
-
-.biobox-sm{
-  margin-bottom: 20px;
-}
-
-.hobby-box {
-  font-size: .7em;
-}
-
-.full-w{
-  width: 100%;
-  left: 0px;
-}
-
-.full-h{
-  height: 100%;
-}
-
-
 .address-name{
   font-family: open-sans-b;
   color: black;
-}
-
-
-.address-sect{
-  text-align: center;
-  font-size: 1.2em;
-  line-height: 1.1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  color: #6CAAF8;
-}
-
-.address-sect p{
-  padding-bottom: 3px;
-  margin-bottom: 0px;
 }
 
 .project-descript{
@@ -417,19 +261,6 @@ textarea, input{
 .project-descript a{
   font-size: 1em;
 }
-
-.btn-primary{
-  background-color: #0089FF;
-}
-
-
-.mobilpic{
-  height: 530px;
-  overflow: hidden;
-  background-position: center;
-  background-size: cover;
-}
-
 
 .fullw{
   width: 100%;
