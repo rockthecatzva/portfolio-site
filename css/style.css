@@ -112,6 +112,9 @@ html, body {
 
 }
 
+.block-btn{
+  background-color: white;
+}
 
 .project-title{
   margin-top: 1em;
@@ -214,7 +217,7 @@ html, body {
 
 #projects {
   position: relative;
-  background-color: #d5fdf0;
+  background-color: #f5f5f5;
   padding-top: 3em;
 }
 
@@ -239,11 +242,11 @@ html, body {
 }
 
 #contact{
-  padding-top: 3em;
-  background-color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
   font-family: open_sanslight;
   color: #413659;
-  background-color: #e2e0e0;;
+  background-color: #f5f5f5;;
 }
 
 
@@ -280,6 +283,7 @@ html, body {
 }
 
 .buttonrow{
+  background-color: #f5f5f5;
   padding-top: 1em;
 }
 
