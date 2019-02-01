@@ -1,0 +1,18 @@
+<div class="project-title block-text col-6 col-sm-12 centered">React, Redux & d3.js Data Dashboard (+ php API)</div>
+            <div class="column col-6 col-sm-12 centered">
+                <img class="fullw" src="images/pr-report-1.jpg">
+            </div>
+
+            <div class="column col-6 col-sm-12 centered bottom-pad">
+                <div class="project-descript">
+                    <p>A React and Redux data dashboard prototype built with d3.js visualizations. The project was my first use of Redux with React. It was designed as to be a proof of concept for a 
+                        more robust and nimble TV ratings data management tool and reporting platform. I developed an accomanying MySQL database and API using the PHP Slim API framework.
+                        The project was especially challenging given the small numbers associated with TV ratings (expressed in decimals, ie: 0.16). Ratings required duration weighting and other
+                        complex calculations in order to match other existing data reports that are created manually. 
+                          The data has been randomized and all labels and key identifiers are obfiscated.</p>
+                    <a href="https://github.com/rockthecatzva/lastfm-dataviz-angular" class="gitlogo">
+                        <div class="fa fa-github fa-1x"></div>
+                    </a>
+                </div>
+            </div>
+

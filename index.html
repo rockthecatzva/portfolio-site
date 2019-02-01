@@ -48,6 +48,53 @@
 
         <div class="columns centered">
 
+
+            <div class="project-title block-text col-6 col-sm-12 centered">React/Redux & D3.js Visualization of TV Ratings</div>
+            <div class="column col-6 col-sm-12 centered">
+                <img class="fullw" src="images/tvratings-donut.jpg" />
+            </div>
+
+            <div class="column col-6 col-sm-12 centered bottom-pad">
+                <div class="project-descript">
+                    <p>A data visualization tool designed to help those in the TV business understand the performance drivers for a variety of networks. Please note that all networks, shows and data has been randomized for public display.
+                         A key feature of the application is "STORY MODE", which walks users through a series of pre-programmed bullet points/observations while highlighting pertinent information in the visual elements.
+                          The STORY MODE can be programmed by data analysts to give less data-savvy users a more curated and meaningful experience,
+                           helping them to better understand the underlying data and its effect on the oveall total performance of a network.  
+                    </p>
+                    <a target="_blank" href="http://rockthecatzva.com/yearly-tv-review/">
+              <span class="glyphicon glyphicon-link"></span>
+              <span class="">Link</span>
+            </a>  |
+                    <a href="https://github.com/rockthecatzva/tvratings_end_of_year_interactive" class="gitlogo">
+                        <div class="fa fa-github fa-1x"></div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="project-title block-text col-6 col-sm-12 centered">React/Redux & D3.js Visualization of Census Data</div>
+            <div class="column col-6 col-sm-12 centered">
+                <img class="fullw" src="images/dataviz-screenshot1.jpg" />
+            </div>
+
+            <div class="column col-6 col-sm-12 centered bottom-pad">
+                <div class="project-descript">
+                    <p>A d3.js visualization using the Census Bureau's API for the American Community survey. Built with Redux, React and D3.js. The components are all stateless (except the map which requires loading the loading of an external us map file). 
+                        Styles are provided in JS thru the use of styled-components.
+                    </p>
+                    <a target="_blank" href="http://rockthecatzva.com/dataviz-statestats/">
+              <span class="glyphicon glyphicon-link"></span>
+              <span class="">Link</span>
+            </a>  |
+                    <a href="https://github.com/rockthecatzva/statestats_reactd3" class="gitlogo">
+                        <div class="fa fa-github fa-1x"></div>
+                    </a>
+                </div>
+            </div>
+
+
+
+
             <div class="project-title block-text col-6 col-sm-12 centered">Simple JS & D3.js Visualization of Reddit Posts</div>
             <div class="column col-6 col-sm-12 centered">
                 <img class="fullw" src="images/bubble1.jpg" />
@@ -55,8 +102,7 @@
 
             <div class="column col-6 col-sm-12 centered bottom-pad">
                 <div class="project-descript">
-                    <p>I wanted to do a quick project without React, but still using d3.js. 
-                    </p>
+                    <p>I wanted to do a quick project without React, but still using d3.js.</p>
                     <a target="_blank" href="http://rockthecatzva.com/reddit-bubbles/">
               <span class="glyphicon glyphicon-link"></span>
               <span class="">Link</span>
@@ -64,31 +110,21 @@
                     <a href="https://github.com/rockthecatzva/bubble_timeline_noreact" class="gitlogo">
                         <div class="fa fa-github fa-1x"></div>
                     </a>
-                </div>
-            </div>
 
-
-
-
-            <div class="project-title block-text col-6 col-sm-12 centered">React, Redux & D3.js Visualization of Census Data</div>
-            <div class="column col-6 col-sm-12 centered">
-                <img class="fullw" src="images/dataviz-screenshot1.jpg" />
-            </div>
-
-            <div class="column col-6 col-sm-12 centered bottom-pad">
-                <div class="project-descript">
-                    <p>This project was an expirement I did within the Redux "framework" that was designed to facilitate pulling data via API calls and then rendering
-                        data inside components that could easily be "dropped-in" and be able to respond to changes in data, and iniate changes themselves.
+                    <p class="additional-project">
+                        (Here is another version using D3's force layout to prevent overlap between bubbles, and giving it some fun animated physics. Im also expierimenting with differnt tool-tips, and removing the CSS framework - still in progress) - 
+                        <a href="http://rockthecatzva.com/bubbles_d3force/" target="_blank">Link</a>
                     </p>
-                    <a target="_blank" href="http://rockthecatzva.com/dataviz-statestats/">
-              <span class="glyphicon glyphicon-link"></span>
-              <span class="">Link</span>
-            </a>  |
-                    <a href="https://github.com/rockthecatzva/datviz-statestats" class="gitlogo">
-                        <div class="fa fa-github fa-1x"></div>
-                    </a>
+                    <div class="column col-10 col-sm-12 centered">
+                        <a href="http://rockthecatzva.com/bubbles_d3force/" target="_blank"><img class="fullw" src="images/bubble-force.jpg" /></a>
+                    </div>
                 </div>
             </div>
+
+
+
+
+           
 
 
 
@@ -119,25 +155,6 @@
             </div>
 
 
-            <div class="project-title block-text col-6 col-sm-12 centered">React, Redux & d3.js Data Dashboard (+ php API)</div>
-            <div class="column col-6 col-sm-12 centered">
-                <img class="fullw" src="images/pr-report-1.jpg">
-            </div>
-
-            <div class="column col-6 col-sm-12 centered bottom-pad">
-                <div class="project-descript">
-                    <p>A React and Redux data dashboard prototype built with d3.js visualizations. The project was my first use of Redux with React. It was designed as to be a proof of concept for a 
-                        more robust and nimble TV ratings data management tool and reporting platform. I developed an accomanying MySQL database and API using the PHP Slim API framework.
-                        The project was especially challenging given the small numbers associated with TV ratings (expressed in decimals, ie: 0.16). Ratings required duration weighting and other
-                        complex calculations in order to match other existing data reports that are created manually. 
-                          The data has been randomized and all labels and key identifiers are obfiscated.</p>
-                    <a href="https://github.com/rockthecatzva/lastfm-dataviz-angular" class="gitlogo">
-                        <div class="fa fa-github fa-1x"></div>
-                    </a>
-                </div>
-            </div>
-
-
             <div class="project-title block-text col-6 col-sm-12 centered">React & c3.js Data Dashboard (+ php API)</div>
             <div class="column col-6 col-sm-12 centered">
                 <img class="fullw" src="images/slimtracker-desktop.jpg">
@@ -146,13 +163,10 @@
             <div class="column col-6 col-sm-12 centered bottom-pad">
                 <div class="project-descript">
                     <p>This is an earlier prototype of a data dashboard. This version is built with C3.js (a d3.js derivative).</p>
-                    <a target="_blank" href="http://rockthecatzva.com/lastfm/#/beau_slims/1435723200/1454302800">
+                    <a target="_blank" href="http://rockthecatzva.com/slim-tracker/">
               <span class="glyphicon glyphicon-link"></span>
               <span class="">Link</span>
-                </a> |
-                    <a href="https://github.com/rockthecatzva/lastfm-dataviz-angular" class="gitlogo">
-                        <div class="fa fa-github fa-1x"></div>
-                    </a>
+                </a>
                 </div>
             </div>
 
