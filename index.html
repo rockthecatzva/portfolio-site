@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>dan.catzva</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <!-- <link rel="stylesheet" href="css/spectre.min.css" /> -->
     <script src="https://use.fontawesome.com/4d986391b0.js"></script>
     <link href="css/style.css" rel="stylesheet" />
@@ -57,6 +57,7 @@
         <img class="project-snap" src="images/tvratings-donut.jpg" />
         <ul class="tags">
           <li><i class="fa fa-tag"></i>React.js</li>
+          <li><i class="fa fa-tag"></i>Redux</li>
           <li><i class="fa fa-tag"></i>D3.js</li>
         </ul>
         <p>
@@ -79,172 +80,74 @@
           </a>
         </div>
       </div>
-      <!--
-        <div class="project-title block-text col-6 col-sm-12 centered">
-          React/Redux & D3.js Visualization of Census Data
-        </div>
-        <div class="column col-6 col-sm-12 centered">
-          <img class="fullw" src="images/dataviz-screenshot1.jpg" />
-        </div>
 
-        <div class="column col-6 col-sm-12 centered bottom-pad">
-          <div class="project-descript">
-            <p>
-              A d3.js visualization using the Census Bureau's API for the
-              American Community survey. Built with Redux, React and D3.js. The
-              components are all stateless (except the map which requires
-              loading the loading of an external us map file). Styles are
-              provided in JS thru the use of styled-components.
-            </p>
-            <a
-              target="_blank"
-              href="http://rockthecatzva.com/dataviz-statestats/"
-            >
-              <span class="glyphicon glyphicon-link"></span>
-              <span class="">Link</span>
-            </a>
-            |
-            <a
-              href="https://github.com/rockthecatzva/statestats_reactd3"
-              class="gitlogo"
-            >
-              <div class="fa fa-github fa-1x"></div>
-            </a>
-          </div>
+      <div class="section">
+        <h2>Census Data Visualization</h2>
+        <img class="project-snap" src="images/dataviz-screenshot1.jpg" />
+        <ul class="tags">
+          <li><i class="fa fa-tag"></i>React.js</li>
+          <li><i class="fa fa-tag"></i>D3.js</li>
+          <li><i class="fa fa-tag"></i>Redux</li>
+        </ul>
+        <p>
+          A d3.js visualization using the Census Bureau's API for the American
+          Community survey. Built with Redux, React and D3.js. The components
+          are all stateless (except the map which requires loading the loading
+          of an external us map file). Styles are provided in JS thru the use of
+          styled-components.
+        </p>
+        <div class="link-box">
+          <a target="_blank" href="">
+            <span class="">Link</span>
+          </a>
+          |
+          <a
+            href="https://github.com/rockthecatzva/statestats_reactd3"
+            class="gitlogo"
+          >
+            <div class="fa fa-github fa-1x"></div>
+          </a>
         </div>
+      </div>
 
-        <div class="project-title block-text col-6 col-sm-12 centered">
-          Simple JS & D3.js Visualization of Reddit Posts
+      <div class="section">
+        <h2>Top Reddit Posts Visualization</h2>
+        <img class="project-snap" src="images/bubble1.jpg" />
+        <ul class="tags">
+          <li><i class="fa fa-tag"></i>React.js</li>
+          <li><i class="fa fa-tag"></i>D3.js</li>
+          <li><i class="fa fa-tag"></i>Redux</li>
+        </ul>
+        <p>
+          A quick React & D3.js visualization.
+        </p>
+        <div class="link-box">
+          <a target="_blank" href="">
+            <span class="">Link</span>
+          </a>
+          |
+          <a href="" class="gitlogo">
+            <div class="fa fa-github fa-1x"></div>
+          </a>
         </div>
-        <div class="column col-6 col-sm-12 centered">
-          <img class="fullw" src="images/bubble1.jpg" />
-        </div>
-
-        <div class="column col-6 col-sm-12 centered bottom-pad">
-          <div class="project-descript">
-            <p>
-              I wanted to do a quick project without React, but still using
-              d3.js.
-            </p>
-            <a target="_blank" href="http://rockthecatzva.com/reddit-bubbles/">
-              <span class="glyphicon glyphicon-link"></span>
-              <span class="">Link</span>
-            </a>
-            |
-            <a
-              href="https://github.com/rockthecatzva/bubble_timeline_noreact"
-              class="gitlogo"
-            >
-              <div class="fa fa-github fa-1x"></div>
-            </a>
-
-            <p class="additional-project">
-              (Here is another version using D3's force layout to prevent
-              overlap between bubbles, and giving it some fun animated physics.
-              Im also expierimenting with differnt tool-tips, and removing the
-              CSS framework - still in progress) -
-              <a
-                href="http://rockthecatzva.com/bubbles_d3force/"
-                target="_blank"
-                >Link</a
-              >
-            </p>
-            <div class="column col-10 col-sm-12 centered">
-              <a
-                href="http://rockthecatzva.com/bubbles_d3force/"
-                target="_blank"
-                ><img class="fullw" src="images/bubble-force.jpg"
-              /></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-title block-text col-6 col-sm-12 centered">
-          Angular & D3.js Data Visualization
-        </div>
-        <div class="column col-6 col-sm-12 centered">
-          <img class="fullw" src="images/lastfm-angular.jpg" />
-        </div>
-
-        <div class="column col-6 col-sm-12 centered bottom-pad">
-          <div class="project-descript">
-            <p>
-              A fully custom d3.js visualization using data from the LastFM API.
-              It was one of my first projects with Angular 1.0. The
-              visualization plots a user's monthly top-artists on a circular
-              graphic. Genres are assigned unique color values. Roll-overs
-              reveal artist name and the month's play count. THE LASTFM API IS
-              CURRENTLY BROKEN, but the visualization still works fairly well.
-            </p>
-            <a
-              target="_blank"
-              href="http://rockthecatzva.com/lastfm/#/beau_slims/1435723200/1454302800"
-            >
-              <span class="glyphicon glyphicon-link"></span>
-              <span class="">Example 1</span>
-            </a>
-            |
-            <a
-              class="iframe"
-              href="http://rockthecatzva.com/lastfm/#/beau_slims/1409544000/1438401600"
-            >
-              <span class="glyphicon glyphicon-link"></span>
-              <span class="">Example 2</span>
-            </a>
-            |
-            <a
-              href="https://github.com/rockthecatzva/lastfm-dataviz-angular"
-              class="gitlogo"
-            >
-              <div class="fa fa-github fa-1x"></div>
-            </a>
-          </div>
-        </div>
-    --></div>
+      </div>
+    </div>
 
     <div id="about" class="section about">
       <img class="bio-pic" src="./images/B&W.JPG" />
       <p>
-        Hello, I'm Dan. A software engineer in the Washington, DC area. I love
-        writing code, animating objects, and making things dynamic. I have a
-        unique background in research (TV analyst, policy evaluation), giving me
-        valuable experience working with a wide range of data.
+        Hello, I'm Dan. I love writing code, working with data, animating
+        objects, and making things dynamic. I have a unique background in
+        research (TV analyst, policy evaluation), giving me valuable experience
+        working with a wide range of data.
       </p>
       <p>
         Currently, I am working for a local market research company, helping
         build custom dashboards and other experiences for their clients. My
-        current tech stack includes: React.js, D3.js, Redux, PostGres, Node, and
+        current tech stack includes: React.js, D3.js, Redux, Postgres, Node, and
         Express.js.
       </p>
     </div>
-
-    <!--
-    <div id="hobbies">
-      <div class="columns">
-        <div class="column col-2 col-sm-hide"></div>
-        <div class="column col-8 col-sm-10">
-          <h5>Here are some of my other interests/hobbies:</h5>
-        </div>
-        <div class="column col-2 col-sm-hide"></div>
-
-        <div class="column col-2 col-sm-hide"></div>
-        <div class="column col-4 col-sm-10">
-          <img class="fullw" src="./images/atpic-small.jpg" />
-        </div>
-        <div class="column col-4 col-sm-12">
-          <h4>Hiking</h4>
-          <p>
-            In 2005 I completed a 2,175 mile hike of the entire length of the
-            Appalachain Trail. It took 6 months to navigate from Georgia to
-            Maine.
-          </p>
-        </div>
-        
-        
-
-        
-      </div>
-    </div>-->
 
     <div id="contact" class="section section-contact">
       <div class="contact-center">
