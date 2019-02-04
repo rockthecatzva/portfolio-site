@@ -1,0 +1,260 @@
+
+body{
+    color: #000;
+  }
+  
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  
+  .center-text{
+    text-align: center;
+  }
+  
+  
+  
+  
+  .pad-section {
+    padding-top: 1.5em;
+  }
+  
+  .bottom-pad{
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  
+  
+  .btn-text{
+    position: relative;
+    top: -0.5em;
+    font-size: 2em;
+    font-family: font-aleo;
+    border: solid 1px;
+    padding: 5px;
+    padding-bottom: 1px;
+    color: black;
+    box-shadow: black 2px 2px;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .gitlogo{
+      padding-left: 0.5em;
+    }
+  
+    .elevator-bio{
+      bottom: 40px;
+      left: 50px;
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .elevator-bio {
+      top: 5px;
+      height: 100%;
+      left: 0px;
+      width: 100%;
+    }
+  }
+  
+  .block-text {
+    font-family: font-aleo;
+    /* padding-right: 7px;
+    padding-top: 5px;
+    line-height: 1.1; */
+    color: black;
+  
+  }
+  
+  .block-btn{
+    background-color: white;
+  }
+  
+  .project-title{
+    margin-top: 1em;
+    font-size: 2.5em;
+  }
+  
+  @media (max-width: 767px) {
+    .project-title {
+      font-size: 1.2em;
+  
+    }
+  
+  }
+  
+  
+  
+  .indent {
+    position: relative;
+    left: 1em;
+    line-height: 0.9;
+  }
+  
+  .web-dev
+  {
+    color: #F8F6C3;
+    font-family: gothital;
+    font-size: 3.8em;
+  }
+  
+  .intro-name{
+    color: #9CFFC2;
+    font-family: gothital;
+    font-size: 7em;
+    line-height: 0.9;
+  }
+  
+  @media (max-width: 767px) {
+    .intro-name {
+      font-size: 3em;
+      text-align: center;
+      position: relative;
+      left: 0.4em;
+  
+    }
+    .web-dev
+    {
+      font-size: 2.5em;
+      left: 0.7em;
+      text-align: center;
+    }
+  }
+  
+  
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+    width: 6em;
+  }
+  
+  .social-logo{
+    opacity: 0.9;
+    padding-left: 8px;
+  }
+  
+  
+  
+  .bg-image{
+    background: url('../images/hiking-bg.jpg') no-repeat;
+    height: 40%;
+    min-height: 380px;
+    background-attachment:scroll;
+    width: 100%;
+    top: 0px;
+  
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    background-position: bottom right;
+  }
+  
+  
+  @media (max-width: 767px) {
+    .bg-image {
+      background-position: center;
+    }
+  
+  }
+  
+  
+  @media (max-width: 767px) {
+  
+  }
+  
+  
+  #projects {
+    position: relative;
+    background-color: #f5f5f5;
+    padding-top: 3em;
+  }
+  
+  #about {
+    position: relative;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: #504E4E;
+    background-color: #ffffff;
+    text-align: justify;
+    font-family: open_sanslight;
+    font-size: 1em;
+  }
+  
+  
+  
+  
+  .fa-github{
+    position: relative;
+    top: 1px;
+    font-size: 2em;
+  }
+  
+  #contact{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: open_sanslight;
+    color: #413659;
+    background-color: #f5f5f5;;
+  }
+  
+  
+  .address-name{
+    font-family: open-sans-b;
+    color: black;
+  }
+  
+  .project-descript{
+    font-family: open_sanslight;
+    text-align: justify;
+    
+  }
+  
+  .project-descript a{
+    font-size: 1em;
+  }
+  
+  .fullw{
+    width: 100%;
+  }
+  
+  .lesspadding p{
+    margin: 0px;
+    line-height: 1.9rem;
+  }
+  
+  #hobbies{
+        padding-top: 1em;
+    margin-bottom: 4em;
+        text-align: justify;
+      font-family: open_sanslight;
+      font-size: 1em;
+  }
+  
+  .buttonrow{
+    background-color: #f5f5f5;
+    padding-top: 1em;
+  }
+  
+  .youtubevid{
+  width: 300px;
+      //height: 365px;
+  }
+  
+  
+  .additional-project{
+    margin-top: 4em;
+    padding-left: 2em;
+  }

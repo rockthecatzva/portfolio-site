@@ -1,193 +1,134 @@
-
-/*@font-face {
-font-family: goth;
-src: url("../fonts/JosefinSlab-Regular.ttf")
-}
-*/
-
 @font-face {
   font-family: font-aleo;
-  src: url("../fonts/BebasNeue Bold.otf")
+  src: url("../fonts/BebasNeue Bold.otf");
 }
 
 @font-face {
   font-family: gothital;
-  src: url("../fonts/LeagueGothic-Italic.otf")
+  src: url("../fonts/LeagueGothic-Italic.otf");
 }
 
-@font-face{
-  font-family: 'open_sanslight';
-  src: url('../fonts/opensans-light-webfont.eot');
-  src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/opensans-light-webfont.woff2') format('woff2'),
-  url('../fonts/opensans-light-webfont.woff') format('woff'),
-  url('../fonts/opensans-light-webfont.ttf') format('truetype'),
-  url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+@font-face {
+  font-family: "open_sanslight";
+  src: url("../fonts/opensans-light-webfont.eot");
+  src: url("../fonts/opensans-light-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/opensans-light-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-light-webfont.woff") format("woff"),
+    url("../fonts/opensans-light-webfont.ttf") format("truetype"),
+    url("../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-
-@font-face{
+@font-face {
   font-family: open-sans-b;
-  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-  url('../fonts/opensans-regular-webfont.woff') format('woff');
+  src: url("../fonts/opensans-regular-webfont.woff2") format("woff2"),
+    url("../fonts/opensans-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
-
-
-body{
-  color: #000;
+.fa{
+  font-size: 5em;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear-float {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+}
 
-html, body {
-  height: 100%;
+li {
+  float: left;
+}
+
+.section {
+  width: 600px;
+  margin: auto;
+  margin-top: 3em;
+  position: relative;
+}
+
+.section h2 {
+  font-size: 2em;
+  font-family: font-aleo;
+}
+
+.section .project-snap {
   width: 100%;
+}
+
+.tags {
+  height: 1em;
+}
+
+.tags li {
+  opacity: 0.7;
+  font-family: font-aleo;
+}
+
+.section p {
+  font-family: open_sanslight;
+  font-size: 0.9em;
+  text-indent: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  clear: both;
+}
+
+.section li {
+  margin-right: 10px;
+}
+
+.link-box {
+  font-family: open_sanslight;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.section .bio-pic {
+  width: 100%;
+}
+
+.section-contact {
+  /* text-align: center; */
+  font-family: open_sanslight;
+}
+
+.contact-center{
+  width: 7em;
+  margin: auto;
+}
+
+.section-contact p,
+div {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.section-contact h3 {
+  font-size: 1.2em;
   margin: 0;
 }
 
-
-.center-text{
-  text-align: center;
-}
-
-
-
-
-.pad-section {
-  padding-top: 1.5em;
-}
-
-.bottom-pad{
-  padding-bottom: 30px;
-}
-
-
-
-
-
-.btn-text{
-  position: relative;
-  top: -0.5em;
-  font-size: 2em;
-  font-family: font-aleo;
-  border: solid 1px;
-  padding: 5px;
-  padding-bottom: 1px;
-  color: black;
-  box-shadow: black 2px 2px;
-}
-
-
-@media (max-width: 767px) {
-  .gitlogo{
-    padding-left: 0.5em;
-  }
-
-  .elevator-bio{
-    bottom: 40px;
-    left: 50px;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .elevator-bio {
-    top: 5px;
-    height: 100%;
-    left: 0px;
-    width: 100%;
-  }
-}
-
-.block-text {
-  font-family: font-aleo;
-  padding-right: 7px;
-  padding-top: 5px;
-  line-height: 1.1;
-  color: black;
-
-}
-
-.block-btn{
-  background-color: white;
-}
-
-.project-title{
+.section-contact .social {
   margin-top: 1em;
-  font-size: 2.5em;
+  width: 42px;
+    margin: auto;
 }
 
-@media (max-width: 767px) {
-  .project-title {
-    font-size: 1.2em;
-
-  }
-
-}
-
-
-
-.indent {
-  position: relative;
-  left: 1em;
-  line-height: 0.9;
-}
-
-.web-dev
-{
-  color: #F8F6C3;
-  font-family: gothital;
-  font-size: 3.8em;
-}
-
-.intro-name{
-  color: #9CFFC2;
-  font-family: gothital;
-  font-size: 7em;
-  line-height: 0.9;
-}
-
-@media (max-width: 767px) {
-  .intro-name {
-    font-size: 3em;
-    text-align: center;
-    position: relative;
-    left: 0.4em;
-
-  }
-  .web-dev
-  {
-    font-size: 2.5em;
-    left: 0.7em;
-    text-align: center;
-  }
-}
-
-
-.col-centered{
-  float: none;
-  margin: 0 auto;
-  width: 6em;
-}
-
-.social-logo{
-  opacity: 0.9;
-  padding-left: 8px;
-}
-
-
-
-.bg-image{
-  background: url('../images/hiking-bg.jpg') no-repeat;
-  height: 40%;
-  min-height: 380px;
-  background-attachment:scroll;
+.hero {
+  height: 330px;
   width: 100%;
-  top: 0px;
+  background: url("../images/hiking-bg.jpg") no-repeat;
 
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
@@ -197,103 +138,49 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   background-position: bottom right;
 }
 
-
-@media (max-width: 767px) {
-  .bg-image {
-    background-position: center;
-  }
-
+.name-plate {
+  color: white;
+  font-family: font-aleo;
+  position: absolute;
+  top: 180px;
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+.name-plate h1 {
+  font-size: 5rem;
+  line-height: 3rem;
+}
+.name-plate h3 {
+  font-size: 2rem;
 }
 
-
-@media (max-width: 767px) {
-
-}
-
-
-#projects {
+.menu {
+  background-color: #424242;
+  height: 2em;
+  /* margin-top: 0.7em; */
   position: relative;
-  background-color: #f5f5f5;
-  padding-top: 3em;
+  top: -1px;
+  height: 40px;
 }
 
-#about {
-  position: relative;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  color: #504E4E;
-  background-color: #ffffff;
-  text-align: justify;
-  font-family: open_sanslight;
-  font-size: 1em;
+.menu ul {
+  text-align: center;
+  width: 230px;
+  margin: auto;
+  padding: 0.6em;
 }
 
-
-
-
-.fa-github{
-  position: relative;
-  top: 1px;
-  font-size: 2em;
-}
-
-#contact{
-  padding-top: 2em;
-  padding-bottom: 2em;
-  font-family: open_sanslight;
-  color: #413659;
-  background-color: #f5f5f5;;
+.menu li {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  font-family: font-aleo;
+  color: white;
 }
 
 
-.address-name{
-  font-family: open-sans-b;
-  color: black;
-}
-
-.project-descript{
-  font-family: open_sanslight;
-  text-align: justify;
-  
-}
-
-.project-descript a{
-  font-size: 1em;
-}
-
-.fullw{
-  width: 100%;
-}
-
-.lesspadding p{
-  margin: 0px;
-  line-height: 1.9rem;
-}
-
-#hobbies{
-      padding-top: 1em;
-  margin-bottom: 4em;
-      text-align: justify;
-    font-family: open_sanslight;
-    font-size: 1em;
-}
-
-.buttonrow{
-  background-color: #f5f5f5;
-  padding-top: 1em;
-}
-
-.youtubevid{
-width: 300px;
-    //height: 365px;
-}
-
-
-.additional-project{
-  margin-top: 4em;
-  padding-left: 2em;
+.about p{
+  text-indent: 0em;
 }
