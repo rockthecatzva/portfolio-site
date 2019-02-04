@@ -29,7 +29,7 @@
   font-style: normal;
 }
 
-.fa{
+.fa {
   font-size: 5em;
 }
 
@@ -55,6 +55,21 @@ li {
   position: relative;
 }
 
+@media (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
+
+  .project {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  .about{
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+}
+
 .section h2 {
   font-size: 2em;
   font-family: font-aleo;
@@ -62,6 +77,11 @@ li {
 
 .section .project-snap {
   width: 100%;
+}
+
+.project {
+  margin-top: 1em;
+  margin-bottom: 4em;
 }
 
 .tags {
@@ -101,9 +121,10 @@ li {
 .section-contact {
   /* text-align: center; */
   font-family: open_sanslight;
+  margin-bottom: 1em;
 }
 
-.contact-center{
+.contact-center {
   width: 7em;
   margin: auto;
 }
@@ -122,7 +143,7 @@ div {
 .section-contact .social {
   margin-top: 1em;
   width: 42px;
-    margin: auto;
+  margin: auto;
 }
 
 .hero {
@@ -180,7 +201,13 @@ div {
   color: white;
 }
 
+.about {
+  padding-top: 2em;
+  background-color: #6f6f6f;
+  color: white;
+  padding-bottom: 2em;
+}
 
-.about p{
+.about p {
   text-indent: 0em;
 }
